@@ -81,6 +81,12 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Intro',
+        },
           {
         type:'dropdown',
         label: 'Nombre de Aplicaciones', 
@@ -101,15 +107,6 @@ const config: Config = {
 
         ],
         },
-
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Intro',
-        },
-
-      
 
         {
           href: 'https://github.com/Alexpad3005/Taller-de-herramientas',
@@ -153,12 +150,12 @@ const config: Config = {
            
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Alexpad3005/Docusuarus#',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Mi Proyecto ,Alejandro Padilla`,
     },
     prism: {
       theme: prismThemes.github,
