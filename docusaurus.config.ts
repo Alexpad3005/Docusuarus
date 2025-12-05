@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Bienvenido al Repositorio Global',
-  tagline: 'Documentacion Mas facil, Mas Rapido',
+  tagline: 'Documentacion de forma sencilla y rapida',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
