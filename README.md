@@ -195,4 +195,3 @@ git push origin feature/nueva-funcionalidad
 * **Wiki del Proyecto:** [https://github.com/Alexpad3005/Docusuarus/wiki](https://github.com/Alexpad3005/Docusuarus/wiki)
 * **Docusaurus documentos**  [https://docusaurus.io/](https://docusaurus.io/)
 
-https://github.com/Alexpad3005/Docusuarus
