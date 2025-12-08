@@ -2,10 +2,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -39,7 +35,6 @@ const config: Config = {
     locales: ['en'],
   },
 
-<<<<<<< HEAD
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -55,9 +50,6 @@ const config: Config = {
 
   presets: [
 
-=======
-  presets: [
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
     [
       'classic',
       {
@@ -85,16 +77,11 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-<<<<<<< HEAD
          
         },
       } satisfies Preset.Options,
 
       
-=======
-        },
-      } satisfies Preset.Options,
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
     ],
   ],
 
@@ -104,16 +91,11 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-<<<<<<< HEAD
-
-=======
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
     navbar: {
       title: 'Repositorio Global',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-<<<<<<< HEAD
             },
       items: [
           {
@@ -158,39 +140,6 @@ const config: Config = {
 
         {
           href: 'https://github.com/Alexpad3005/Docusuarus',
-=======
-      },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Intro',
-        },
-          {
-        type:'dropdown',
-        label: 'Nombre de Aplicaciones', 
-        position: 'left',
-        items: [
-          {
-            label:'Destruccion de equipos',
-            href: 'https://github.com/facebook/docusaurus',
-          },
-           {
-            label:'Nuevo Equipos',
-            href: 'https://github.com/facebook/docusaurus',
-          },
-          {
-            label:'Discos Duros',
-            href: 'https://github.com/facebook/docusaurus',
-          },
-
-        ],
-        },
-
-        {
-          href: 'https://github.com/Alexpad3005/Taller-de-herramientas',
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
           label: 'GitHub',
           position: 'right',
         },
@@ -215,18 +164,7 @@ const config: Config = {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
-<<<<<<< HEAD
           
-=======
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
           ],
         },
         {
@@ -240,11 +178,7 @@ const config: Config = {
           ],
         },
       ],
-<<<<<<< HEAD
       copyright: `Copyright © ${new Date().getFullYear()}  Mi Proyecto Tecmilenio`,
-=======
-      copyright: `Copyright © ${new Date().getFullYear()} Mi Proyecto ,Alejandro Padilla`,
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
     },
     prism: {
       theme: prismThemes.github,
@@ -254,9 +188,6 @@ const config: Config = {
 };
 
 export default config;
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 4bfef3160ef04643058a5ba9a73fe89ef9467790
